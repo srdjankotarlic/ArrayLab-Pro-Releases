@@ -11,3 +11,6 @@
 - Native cancellation stops accepting results; an active Rust tile may finish in the background. Browser cancellation can terminate its WASM worker. Internet is needed for GitHub feedback/downloads, not for packaged calculations.
 - The Mac preview is ad-hoc signed and not notarized; Windows is unsigned. OS security warnings are possible. Never globally disable Gatekeeper or SmartScreen.
 - Windows physical/interactive QA is PENDING. CI compilation, process survival and engine checks do not prove all Windows GUI workflows.
+
+- Some newly added support/provenance text remains English in Serbian mode.
+- Open-source component license declarations, provided notices and upstream notice references are bundled with the demo resources. Some upstream packages publish SPDX declarations without a separate notice file; the inventory records this explicitly.
