@@ -17,7 +17,7 @@ Windows x64: run the NSIS Setup.exe, complete the current-user installation and 
 5. Choose frequency/band and Predict Sound. The heatmap uses actual calculated listener samples. Relative dB shows model differences; it cannot establish absolute SPL. Changing geometry, DSP or environment makes an old result stale until Predict runs again.
 6. Add Microphone and click a listening point. Microphone Z is a global coordinate. Frequency Response and Advanced Measurements show magnitude, phase, group delay and the band-limited impulse. Phase may be unavailable at a cancellation or across incoherent groups. Save a trace to compare with later measurements.
 7. Advanced mode exposes exact settings, environment, array geometry, filters, routing groups, measurements and reports. Gain/delay/polarity/mute/EQ affect the actual model. Simple/Advanced changes preserve project state.
-8. Save Project or Cmd/Ctrl+S. First save chooses a .arraylab path; later native saves overwrite that same path atomically. File → Save As or Cmd/Ctrl+Shift+S creates another file. Open validates files; schema 1 migration requires review and preserves the original. Undo/Redo restores project edits. Edit Copy/Paste/Duplicate creates new object IDs; select the whole array to copy it.
+8. Save Project or Cmd/Ctrl+S. First save defaults to Documents and chooses a .arraylab path; later native saves overwrite that same path atomically. File → Save As or Cmd/Ctrl+Shift+S creates another file. Open validates files; schema 1 migration requires review and preserves the original. Undo/Redo restores project edits. Edit Copy/Paste/Duplicate creates new object IDs; select the whole array to copy it.
 9. Use Export or Advanced → Reports for PDF, field PNG, equipment/array CSV and measurement/reference exports. Technical values come from current state. A stale map is not exported as current.
 10. If a session closes unexpectedly, reopen and choose Restore autosave. Recent Projects opens local snapshots. Keep durable disk copies for important work.
 
@@ -29,4 +29,12 @@ The app bundle includes conference, standing concert, mixed audience/balcony, tw
 
 Help → Report a Bug / Request a Feature / About ArrayLab Pro opens support. Engineering discrepancies have a dedicated issue form. Provide version, OS, function, model/dataset, exact reproduction steps, expected versus actual behavior and, if permitted, a minimal project/measurement reference. The form opens in a browser; nothing is submitted or attached automatically. Remove confidential venue/customer information from optional attachments.
 
-Actual application screenshots will accompany the validated release; no fictional mockups are used.
+See the actual installed Mac screenshots below.
+
+## Actual Mac screenshots
+
+The following captures are from the installed Apple Silicon desktop app using its bundled generic conference project and native Rust engine (0.4.0-preview.1). They are application screenshots, not accuracy benchmarks.
+
+![Simple mode with a calculated relative map](screenshots/macos-simple-prediction.png)
+
+![Canonical 3D geometry with an approximate relative overlay](screenshots/macos-3d.png)

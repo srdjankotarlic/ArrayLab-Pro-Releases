@@ -13,3 +13,5 @@ The preview supports venue and listener-height editing, generic source placement
 Target systems: macOS Apple Silicon (12 or later), Windows x64 with bundled WebView2 dependency installation. Intel Mac support is conditional on a successfully tested artifact. Signing/notarization and platform QA details must be read in the specific release notes. Windows interactive QA is pending unless explicitly recorded as completed for that release.
 
 This distribution repository contains documentation, feedback forms and binary release assets. Development source remains private. The app performs no automatic project uploads or telemetry; feedback attachments are optional and user controlled.
+
+![Installed Mac preview — educational relative prediction](screenshots/macos-simple-prediction.png)
