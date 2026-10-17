@@ -1,0 +1,62 @@
+name: Engineering discrepancy
+description: Reproducible numerical or geometric disagreement
+title: "[Engineering] "
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Engineering category
+      options:
+        - Line array geometry
+        - Splay / aiming
+        - Listener height / coordinates
+        - Relative prediction
+        - Phase / group delay
+        - DSP behavior
+        - Authorized MAPP reference comparison
+        - Other numerical disagreement
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Application version
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system and CPU
+    validations:
+      required: true
+  - type: input
+    id: function
+    attributes:
+      label: Function being tested
+  - type: input
+    id: model
+    attributes:
+      label: Loudspeaker model and acoustic dataset ID/version
+  - type: textarea
+    id: steps
+    attributes:
+      label: Exact reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior and reference basis
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Optional screenshot, minimal project or measurement/reference data
+      description: Attach only files you are authorized to share publicly. Remove confidential information. Include reference provenance, units, coordinates, time/level reference, DSP and uncertainty when available.
