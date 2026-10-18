@@ -2,6 +2,8 @@
 
 **Experimental software — not validated for professional sound-system design, certified rigging, or safety-critical decisions.**
 
+[Download version 0.4.0-preview.1](https://github.com/srdjankotarlic/ArrayLab-Pro-Releases/releases/tag/v0.4.0-preview.1) · [SHA-256 checksums](https://github.com/srdjankotarlic/ArrayLab-Pro-Releases/releases/download/v0.4.0-preview.1/SHA256SUMS.txt)
+
 ## Install
 
 Download the installer for your CPU from the published prerelease and compare its SHA-256 with SHA256SUMS.txt. Mac: open the DMG, drag ArrayLab Pro to Applications, then open it in Finder. Preserve an older copy first. This preview is ad-hoc signed and not notarized; macOS may require a per-app allowance in Privacy & Security if you trust the verified download. Never disable Gatekeeper globally. The owner's Desktop copy also launches directly.
